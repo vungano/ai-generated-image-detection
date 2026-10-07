@@ -1,8 +1,5 @@
 # AI-Generated Image Detection
 
-**CSYM015 — Intelligent Systems** · University of Northampton  
-Student ID: **25818066** · Emmanuel Tinevimbo Vungano
-
 Dual-branch frequency–spatial fusion detector with noise residual analysis. Distinguishes real photographs from AI-generated images using:
 
 - **Branch A** — EfficientNet-B3 spatial features  
@@ -35,8 +32,7 @@ Primary benchmark: [CIFAKE](https://www.kaggle.com/datasets/birdy654/cifake-real
 ├── outputs/                  # Metrics JSON/CSV and evaluation plots
 ├── ai_image_detection.ipynb  # Training, EDA, ablation, robustness
 ├── requirements.txt
-├── RUN_DEMO.md
-└── CSYM015_Report.md         # Project report (markdown draft)
+└── RUN_DEMO.md
 ```
 
 ---
@@ -122,10 +118,3 @@ API: `POST http://127.0.0.1:8000/predict` (multipart field `file`).
 | `data/cifake/` | Large public dataset — download from Kaggle |
 | `models/*.pt` | Checkpoint ~46 MB — train via the notebook |
 | `web/node_modules/`, `web/.next/` | Rebuild with `npm install` / `npm run dev` |
-| Report PDF/DOCX | Markdown report is included |
-
----
-
-## Licence / coursework note
-
-Submitted for CSYM015 coursework. Reuse for learning is fine; do not submit as your own assessed work.
