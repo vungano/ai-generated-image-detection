@@ -54,8 +54,8 @@ Primary benchmark: [CIFAKE](https://www.kaggle.com/datasets/birdy654/cifake-real
 ### 1. Clone and install Python deps
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/vungano/ai-generated-image-detection.git
+cd ai-generated-image-detection
 
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
