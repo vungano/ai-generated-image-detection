@@ -1,0 +1,72 @@
+[
+  {
+    "model":"A spatial only",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.74935,
+    "precision":0.6697759924,
+    "recall":0.9837,
+    "f1":0.7969376595,
+    "auc":0.93777732
+  },
+  {
+    "model":"B frequency only",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.51255,
+    "precision":0.5064362275,
+    "recall":0.9875,
+    "f1":0.6695142208,
+    "auc":0.80294905
+  },
+  {
+    "model":"C noise only",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.6089,
+    "precision":0.5612141653,
+    "recall":0.9984,
+    "f1":0.718531846,
+    "auc":0.90672357
+  },
+  {
+    "model":"A+B",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.77715,
+    "precision":0.6964070583,
+    "recall":0.9827,
+    "f1":0.8151466136,
+    "auc":0.951022615
+  },
+  {
+    "model":"A+C",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.7897,
+    "precision":0.7078490458,
+    "recall":0.9866,
+    "f1":0.8242960983,
+    "auc":0.958923405
+  },
+  {
+    "model":"B+C",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.6273,
+    "precision":0.5733379422,
+    "recall":0.9952,
+    "f1":0.7275385628,
+    "auc":0.89247592
+  },
+  {
+    "model":"A+B+C full (20k test)",
+    "train_n":80000,
+    "test_n":20000,
+    "accuracy":0.98595,
+    "precision":0.9790988859,
+    "recall":0.9931,
+    "f1":0.9860497443,
+    "auc":0.99906404
+  }
+]

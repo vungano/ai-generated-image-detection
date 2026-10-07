@@ -1,0 +1,12 @@
+{
+  "model": "Logistic Regression (24 handcrafted forensic features)",
+  "train_n": 100000,
+  "test_n": 20000,
+  "accuracy": 0.77035,
+  "precision": 0.7779948586118252,
+  "recall": 0.7566,
+  "f1": 0.767148288973384,
+  "auc": 0.85109268,
+  "train_seconds": 524.2,
+  "note": "Full CIFAKE train/test unless MAX_PER_CLASS_* capped in script"
+}
